@@ -5,6 +5,7 @@ require('./images/tw-logo.png');
 require('./images/favicon.ico');
 require('./images/radar_legend.png');
 
-const GoogleSheetInput = require('./util/factory');
+//const RadarFactory = require('./util/factory');
+const RadarFactory = require('./util/inlineFactory');
 
-GoogleSheetInput().build();
+RadarFactory().build();
